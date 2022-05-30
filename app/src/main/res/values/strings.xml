@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2016 The Android Open Source Project
      Copyright (C) 2022 Maximilian Fischer
@@ -14,20 +14,51 @@
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
- -->
+-->
 
-<resources>
-    <string name="app_name">Print</string>
-    <string name="print">Print</string>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Job blocked status messages-->
 
     <!-- Job error messages -->
     <string name="unreadable_input">Could not read document</string>
 
     <!-- Media size labels -->
-    <string name="media_size_l" translatable="false">L</string>
-    <string name="media_size_5x7in" translatable="false">5x7 in</string>
-    <string name="media_size_89x119mm" translatable="false">89x119 mm</string>
-    <string name="media_size_54x86mm" translatable="false">54x86 mm</string>
-    <string name="media_size_8x10in" translatable="false">8x10 in</string>
-    <string name="media_size_4x6in" translatable="false">4x6 in</string>
+    <string name="media_size_l">L</string>
+    <string name="media_size_5x7in">5x7 in</string>
+    <string name="media_size_89x119mm">89x119 mm</string>
+    <string name="media_size_54x86mm">54x86 mm</string>
+    <string name="media_size_8x10in">8x10 in</string>
+    <string name="media_size_4x6in">4x6 in</string>
+
+    <!-- Printer's default description text. %1$s is IP address and %2$s is location
+    (if known) e.g. "192.168.43.193 - 3rd Floor Copy Room". -->
+
+    <!-- Required by system, but does not appear in any UI -->
+
+    <!-- Manual printer strings -->
+    <!-- Preference name for enable/disable of Wi-Fi Direct printing [CHAR LIMIT=UNLIMITED] -->
+
+    <!-- Explain purpose of recommendation fragment [CHAR LIMIT=UNLIMITED] -->
+    <!-- Heading for services that are not currently installed, but recommended [CHAR LIMIT=UNLIMITED] -->
+    <!-- Summary for recommended services that are not installed [CHAR LIMIT=UNLIMITED] -->
+    <!-- Summary for recommended services that are installed [CHAR LIMIT=UNLIMITED] -->
+    <!-- Button to allow user to enable/disable installed print services. [CHAR LIMIT=UNLIMITED] -->
+
+    <!-- Channel name for security-related notifications [CHAR LIMIT=40] -->
+    <!-- Message shown in notification if a printer presented a changes security certificate [CHAR LIMIT=UNLIMITED] -->
+    <!-- Message shown in notification if a printer no longer supports encryption [CHAR LIMIT=UNLIMITED] -->
+    <!-- Button label in a notification. This button accepts a printer security change [CHAR LIMIT=20] -->
+    <!-- Button label in a notification. This button rejects a printer security change [CHAR LIMIT=20] -->
+
+    <!-- Channel name for connection-related notifications [CHAR LIMIT=40] -->
+    <!-- Message shown in notification if there is a problem accessing Wi-Fi Direct [CHAR LIMIT=UNLIMITED] -->
+    <!-- Button with negative response to permissions or location request, disabling Wi-Fi Direct [CHAR LIMIT=20] -->
+    <!-- Message shown in dialog or toast if the service cannot get Wi-Fi Direct permissions [CHAR LIMIT=UNLIMITED] -->
+    <!-- Button label in a notification or dialog. This button leads to a request to grant permissions [CHAR LIMIT=20] -->
+    <!-- Message shown in dialog or toast if location is required but disabled [CHAR LIMIT=UNLIMITED] -->
+    <!-- Button label in a notification or dialog. This button leads to location settings [CHAR LIMIT=20] -->
+
+    <!-- Share-to-print label [CHAR LIMIT=20] -->
+    <string name="print">Print</string>
 </resources>

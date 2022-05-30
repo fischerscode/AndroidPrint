@@ -23,7 +23,7 @@
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@drawable/ic_printservice"
-        android:label="@string/app_name"
+        android:label="@string/print"
         android:supportsRtl="true"
         android:theme="@android:style/Theme.DeviceDefault.Settings"
         tools:targetApi="31">
@@ -39,7 +39,6 @@
 
         <activity
             android:name="com.android.bips.ImagePrintActivity"
-            android:label="@string/print"
             android:theme="@android:style/Theme.Translucent.NoTitleBar"
             android:exported="true"
             android:configChanges="keyboardHidden|orientation|screenSize">
@@ -52,7 +51,6 @@
 
         <activity
             android:name="com.android.bips.PdfPrintActivity"
-            android:label="@string/print"
             android:theme="@android:style/Theme.Translucent.NoTitleBar"
             android:exported="true"
             android:configChanges="keyboardHidden|orientation|screenSize">

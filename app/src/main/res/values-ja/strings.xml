@@ -18,12 +18,12 @@
 
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="unreadable_input" msgid="2199948329556527912">"Dokument konnte nicht gelesen werden"</string>
+    <string name="unreadable_input" msgid="2199948329556527912">"ドキュメントを読み込めませんでした"</string>
     <string name="media_size_l" msgid="164416542021598181">"L"</string>
-    <string name="media_size_5x7in" msgid="1275128379533195285">"5 x 7 in."</string>
-    <string name="media_size_89x119mm" msgid="6828167243395807385">"89 x 119 mm"</string>
-    <string name="media_size_54x86mm" msgid="1301991206183343895">"54 x 86 mm"</string>
-    <string name="media_size_8x10in" msgid="1872576638522812402">"8 x 10 in."</string>
-    <string name="media_size_4x6in" msgid="3093276425529958253">"4 x 6 in."</string>
-    <string name="print" msgid="7851318072404916362">"Drucken"</string>
+    <string name="media_size_5x7in" msgid="1275128379533195285">"5x7 インチ"</string>
+    <string name="media_size_89x119mm" msgid="6828167243395807385">"89x119 mm"</string>
+    <string name="media_size_54x86mm" msgid="1301991206183343895">"54x86 mm"</string>
+    <string name="media_size_8x10in" msgid="1872576638522812402">"8x10 インチ"</string>
+    <string name="media_size_4x6in" msgid="3093276425529958253">"4x6 インチ"</string>
+    <string name="print" msgid="7851318072404916362">"印刷"</string>
 </resources>
