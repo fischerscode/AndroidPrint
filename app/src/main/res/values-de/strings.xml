@@ -26,4 +26,5 @@
     <string name="media_size_8x10in" msgid="1872576638522812402">"8 x 10 in."</string>
     <string name="media_size_4x6in" msgid="3093276425529958253">"4 x 6 in."</string>
     <string name="print" msgid="7851318072404916362">"Drucken"</string>
+    <string name="github_content_description">Der Source Code ist auf GitHub veröffentlicht.</string>
 </resources>

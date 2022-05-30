@@ -61,4 +61,5 @@
 
     <!-- Share-to-print label [CHAR LIMIT=20] -->
     <string name="print">Print</string>
+    <string name="github_content_description">View the source code on GitHub.</string>
 </resources>
