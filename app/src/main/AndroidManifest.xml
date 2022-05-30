@@ -22,7 +22,8 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@drawable/ic_printservice"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
         android:label="@string/print"
         android:supportsRtl="true"
         android:theme="@style/Theme.Material3.DayNight.NoActionBar"
@@ -40,6 +41,7 @@
             android:name="com.android.bips.ImagePrintActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:exported="true"
+            android:icon="@drawable/ic_printservice"
             android:theme="@android:style/Theme.Translucent.NoTitleBar">
             <intent-filter>
                 <action android:name="android.intent.action.SEND" />
@@ -53,6 +55,7 @@
             android:name="com.android.bips.PdfPrintActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:exported="true"
+            android:icon="@drawable/ic_printservice"
             android:theme="@android:style/Theme.Translucent.NoTitleBar">
             <intent-filter>
                 <action android:name="android.intent.action.SEND" />
