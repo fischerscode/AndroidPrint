@@ -6,6 +6,7 @@
         <entry key="../../.gradle/caches/transforms-3/ed9fbd453518bc1cce8fbe8cf30ce98a/transformed/aboutlibraries-10.3.0/res/layout/activity_opensource.xml" value="0.32653985507246375" />
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2025" />
         <entry key="app/src/main/res/drawable/github_logo.xml" value="0.2985" />
+        <entry key="app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.2025" />
         <entry key="app/src/main/res/drawable/ic_printservice.xml" value="0.2025" />
         <entry key="app/src/main/res/layout/activity_about.xml" value="0.19375" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.19479166666666667" />
